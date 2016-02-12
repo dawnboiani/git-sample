@@ -1,0 +1,12 @@
+upperCaseFirstLetters("something to uppercase");
+
+//function upperCaseFirstLetters(aStr);{
+  //var cleaned = aStr.trim();
+  //var words = cleaned.split("");
+}
+
+function upperCaseFirstLetters (aStr){
+ var cleaned = aStr.trim();
+ var words = cleaned.split(" ");
+
+}
