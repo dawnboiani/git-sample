@@ -1,0 +1,25 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color:#000;
+    /*transition-delay:0;
+    transition-duration:1s;
+    transition-property:color;
+    transition-timing-function: ease;*/
+    transition: color 1s ease 0s, 
+        background-color .5s linear 0s,
+        border-radius 2s ease 0s;
+    
+}
+.block:hover{
+    color:#fff;
+}
+.rounded{
+ background-color: blue;
+    border-radius: 100px;
+}
+.moved{
+    transform: translate(300px 0px) rotate(360deg) skew(34deg) scaleX(0.5);
+    
+}    

@@ -1,0 +1,963 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:'Open Sans','MyriadPro-Regular',Helvetica,Arial;
+	font-size: 15px;
+	line-height: 1.1rem;   
+        color: #666;
+	background: #F8F8F8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #F8F8F8 0%, #ffffff 15%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F8F8F8), color-stop(15%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F8F8F8 0%,#ffffff 15%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F8F8F8 0%,#ffffff 15%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F8F8F8 0%,#ffffff 15%); /* IE10+ */
+	background: linear-gradient(to bottom,  #F8F8F8 0%,#ffffff 15%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+div.wishlist-product-info, div#wishlist-filter div.ss_wl_sort {line-height: 12px;}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+	line-height: 1;
+ font-family: 'Open Sans','MyriadPro-Regular',Helvetica,Arial;
+}
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+  .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
+    font-weight: normal;
+	line-height: 1;
+    color: #666; }
+
+h1,
+h2,
+h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 9px;
+  margin-bottom: 9px; }
+
+h1, .h1 {
+  font-size: 25px; }
+
+h2, .h2 {
+  font-size: 23px; }
+
+h3, .h3 {
+  font-size: 1.313em; }
+
+h4, .h4 {
+  font-size: 17px; }
+
+h5, .h5 {
+  font-size: 14px; }
+
+h6, .h6 {
+  font-size: 12px; }
+form {
+	margin: 0px;
+	padding: 0px;
+}
+a:link, a:active, a:visited {
+	color: #665D64;
+	font-weight: normal;
+       font-family:'MyriadPro-Regular',Helvetica,Arial;
+}
+a:hover {
+    color: #AE4B4B;
+}
+a.btnStandard {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 10px;
+	background: #;
+	text-align: center;
+	color: #999999;
+	text-decoration: none;
+}
+a.btnStandardGradient, a.btnStandardGradient:hover, a.btnStandardGradient:focus {
+	height: 28px;
+	line-height: 28px;
+	padding: 0px 10px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	border: 1px solid #666666;
+	display: block;
+	background: #f6b875; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a6a09e 0%, #a6a09e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a6a09e), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a6a09e 0%,#a6a09e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a6a09e 0%,#a6a09e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a6a09e 0%,#a6a09e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #a6a09e 0%,#a6a09e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a09e', endColorstr='#C8C5C0',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px 0px #000000;
+}
+.clear {
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+}
+.wrapper {
+	  box-sizing: border-box;
+	width: 1170px;
+	margin: 0 auto;
+}
+.pageText {
+	font-size: 1.05em;
+	line-height: 1.2em;
+	margin-bottom: 30px;
+	color: #666;
+	text-align: justify;
+}
+.pageText p:first-child {
+	margin-top: 0px;
+}
+.pageText p:last-child {
+	margin-bottom: 0px;
+}
+#pageName {
+	margin-top: 0px;
+	font-weight: normal;
+        text-align: center;
+	font-size: 1.9em;
+        line-height: 120%;
+	color: #666666;}
+#top {
+	background: #C8C5C0;
+       color: #fff;
+       width: 100%;       
+       background-image: url(https://jade.secure-host.com/buddhistmala/store/media/images/buddhist_prayer_bead_mala.gif);
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+#top .left,
+#top .right {
+	width: 48%;
+	height: 38px;
+	line-height: 38px;
+}
+#top a {
+	color: #fff;
+}
+#top .left {
+	float: left;
+}
+#top .right {
+	float: right;
+	text-align: right;
+}
+#header {
+}
+a#logo {
+	background: url(https://jade.secure-host.com/buddhistmala/store/media/images/sakura_logo1.gif) left top no-repeat;
+	width: 319px;
+	height: 53px;
+	text-indent: -99999px;
+	display: block;
+}
+a#logo:focus {
+	outline: none;
+}
+#header .upper {
+	margin-bottom: 20px;
+}
+#header .upper .left,
+#header .upper .middle,
+#header .upper .right {
+	padding: 10px 0px;
+}
+#header .upper .left {
+	width: 450px;
+	float: left;
+}
+#header .upper .middle {
+	border: 0px solid #bfbfbf;
+	border-top: none;
+	border-bottom: none;
+	padding: 10px 20px;
+	float: left;
+	width: 350px;
+}
+#header .upper .right {
+	padding-left: 20px;
+	width: 200px;
+	float: right;
+}
+#search {
+}
+#inputSearch {
+	border: 1px solid #C8C5C0;
+	background: #FFFFFF;
+	padding: 1px 0px 0px 5px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 15px;
+	float: left;
+	width: 86%;
+	height: 40px;
+	color: #999999;
+}
+#btnSearch {
+	float: left;
+	width: 14%;
+       background: #C8C5C0;
+	   text-indent:-9999px;
+	   background: #C8C5C0 url(https://jade.secure-host.com/buddhistmala/store/media/themesmedia/search.png) center center no-repeat;
+}
+#btnSearch:hover {
+	background-color:#a6a09e;
+}
+#minicart {
+	background: #C8C5C0;
+	padding: 0px 15px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+#minicart a {
+	color: #666666;
+}
+.mini-icon img {
+	margin: 10px 10px 0px 0px;
+}
+#topNav {
+	background: #A6A09E;
+	min-height: 40px;
+	width: 100%;
+}
+#topNav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+		
+}
+#topNav ul li {
+	padding-left: 7px;
+	border-right: 0px solid
+}
+#topNav ul li a {
+	display: block;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0px 12px;
+	font-size: 14.3px;
+       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+       text-transform: uppercase;
+}
+#topNav ul li a:hover {
+	text-shadow: none;
+	background: #BFB8B2;
+}
+#header .lower {
+	background: #E8DDD9 url("https://jade.secure-host.com/buddhistmala/store/media/images/mala-necklace-sw.gif") repeat scroll 0% 0%;
+	margin-bottom: 20px;
+}
+#breadcrumb {
+	padding-left: 15px;
+}
+#breadcrumb a {
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#breadcrumb div {
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 100px;
+	overflow: hidden;
+	color: #E8DDD9;
+}
+#breadcrumb span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#features {
+	margin-bottom: 20px;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e5e5e5;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Page Links
+ */
+#pageLinks {
+	margin:0 -13px;
+}
+.pageLink {
+	width: 273px;
+	float: left;
+	margin: 0px 13px 20px;
+}
+.pageLink:hover {
+	-webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.75);
+}
+.pageLinkWrapper {
+	position: relative;
+	height: auto;
+}
+a.pageLinkName {
+       font-family: Open Sans, Sans Serif, Arial;
+	position: absolute;
+       font-weight: bold;
+       left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding: 8px 0px;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+ }
+.pageLink img {
+	width: 100%;
+	float: left;
+}
+.linkText {
+	background: #A6A09A;
+	padding: 10px;
+       color: #ffffff;
+       font-size: 20px;
+       text-align: center;
+
+}
+.banner-new {	
+	font-family: Open Sans, sans serif, Arial;
+	font-size: 14px;
+	font-weight: normal;
+        color: #fff;
+	opacity: 0.9;
+        }
+/*.banner-new img{
+	display:none;
+}*/
+
+/** * Products
+ */
+#products {
+	margin:0 -13px;
+}
+#products .title {
+	margin: 0 13px 20px;
+	color: #666666;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+#products .title .left {
+	float: left;
+	width: 48%;
+	font-size: 20px;
+}
+#products .title .right {
+	float: right;
+	width: 48%;
+	text-align: right;
+	padding-top: 10px;
+}
+.product {
+	float: left;
+	width: 273px;
+	margin: 0px 13px 20px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+	padding-bottom: 20px;
+}
+.product:hover {
+	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.75);
+}
+.productGraphicWrapper {
+	position: relative;
+}
+#menutoggle {display: none;}
+.onSale {
+        font-size: 1px;
+        color: #ffffff;
+}
+.productGraphic {
+	width: 100%;
+	max-width: 100%;
+}
+.productContent {
+	padding: 10px 10px 0px 10px;
+	text-align: center;
+}
+a.productName,
+.productName {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+	color:#555;
+	text-decoration:none;
+}
+.reviewSummary {
+	margin-bottom: 10px;
+}
+.priceBlock {
+	margin-bottom: 15px;
+}
+.priceWas {
+	font-size: 80%;
+	display: block;
+}
+.priceWas span {
+	text-decoration: line-through;
+}
+.price {
+	font-size: 12px;
+	color: #80020;
+	display: block;
+}
+.ordering {
+	background: #ffffff;
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 193px;
+}
+.ordering .left {
+	float: left;
+}
+.ordering .quantity {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.ordering .inputQuantity {
+	float: left;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid #C8C5C0;
+	font-family: Arial, Verdana, sans-serif;
+	padding: 0px;
+}
+.ordering .right {
+	float: right;
+}
+/**
+ * Footer
+ */
+#pageText1 h5 a, #pageText1 h6 a{
+	text-decoration:none;
+}
+#footerWrapper {
+	background: #F8F8F8;
+	color: #666666;
+}
+#footerWrapper a {
+	color: #f9eede;
+}
+#footerWrapper a:hover {
+	color: #cccccc;
+}
+#footerWrapper .wrapper {
+	padding-top: 20px;
+}
+#footerWrapper .title {
+	color: #666666;
+	font-size: 150%;
+	font-family: 'Open Sans Condensed'; 
+        font-style: normal;  
+       font-weight: 700;
+       margin-bottom: 10px;
+	text-shadow: 1px 1px #cccccc;E0E0E0
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 10px;
+}
+#footerWrapper .column {
+	float: left;
+	margin-right: 50px;
+}
+#footerWrapper .menu {
+	margin-bottom: 20px;
+}
+#footerWrapper .menu ul {
+	list-style-type: none;
+	line-height: 1rem;
+	margin: 0px;
+	padding: 0px;
+}
+#footerWrapper .menu ul li {
+	margin-bottom: 5px;
+}
+#footerWrapper .menu ul li a {
+	text-decoration: none;
+	font-size: 14px;
+       color: #666666;
+       font-weight: normal;
+}
+#footerWrapper .menu a:hover {
+	color: #AE4B4B;
+}
+/**
+ * Super Footer
+ *
+ * This is the area directly above the footer.
+ */
+#superFooterWrapper {
+	background: #E8DDD9 url("https://jade.secure-host.com/buddhistmala/store/media/images/mala-necklace-sw.gif") repeat scroll 0% 0%;
+	padding: 20px 0px;
+}
+#brandLogos {
+}
+#brandLogos .logo {
+	float: middle;
+	margin-right: 10px;
+	height: 60px;
+       width: 100%;
+        display: table-cell;
+}
+#newsletter {
+	padding: 15px;
+	margin-bottom: 20px;
+}
+/**
+ * Newsletter
+ */
+#newsletter .title, #superFooterWrapper .title {
+	font-size: 150%;
+	font-family: 'Open Sans Condensed'; 
+        font-style: normal;  
+       font-weight: 700;
+       color: #665D64;	
+       border-bottom: none;
+	padding-bottom: 0px;
+        float: middle;
+}
+#newsletter .description, #superFooterWrapper .description{
+	margin-bottom: 15px;
+        color: #665D64;
+}
+#inputNewsletter {
+	border: 1px solid #737373;
+	background: #ffffff;
+	color: #999999;
+	padding: 1px 0px 0px 5px;
+	font-family: "arial", serif;
+	font-size: 14px;		
+       float: left;
+	width: 75%;
+	max-width:400px;
+	height: 40px;
+}
+#btnNewsletter {
+	float: left;
+}
+#newsletter .btnStandard, #superFooterWrapper .btnStandard {
+	background: #666666;
+	color: #ffffff;
+}
+.row {
+	overflow:hidden;
+}
+.col_fb {
+	float:left;
+	width:50%;
+	padding-right:30px;
+	box-sizing: border-box;
+}
+.col_newsletter {
+	float:right;
+	width:47%;
+	box-sizing: border-box;
+}
+
+/**
+ * Sub Footer
+ */
+#subFooterWrapper {
+	background: #666666;
+       background-image: url(https://jade.secure-host.com/buddhistmala/store/media/images/buddhist_prayer_bead_mala.gif);
+       color: #D6D6D6;
+	text-align: center;
+	font-size: 90%;
+	padding: 20px;
+}
+#footerWrapper .last {
+	margin-right:0 !important;
+}
+/**
+ * More Info Page
+ */
+#products.crossSell {
+	margin-bottom: 20px;
+}
+#products.crossSell .product {
+	padding-bottom: 0px;
+}
+#products.crossSell .title .left {
+	font-size: 18px;
+       color: #666666;
+}
+#moreInfo .column1:last-child,
+#moreInfo .column2:last-child {
+	margin-bottom: 40px;
+}
+#moreInfo .column1 {
+	float: right;
+	width: 510px;
+}
+#moreInfo .column2 {
+	float: left;
+	width: 570px;
+}
+#moreInformationGraphic {
+	width: 500px;
+	margin-bottom: 10px;
+}
+/*#moreInformationGraphic img {
+	width: 100%;
+}*/
+#extraViews {
+	margin-bottom: 20px;
+}
+#extraViews a {
+	display: block;
+	float: left;
+	width: 100px;
+	margin: 0px 10px 10px 0px;
+}
+#extraViews img {
+	width: 100%;
+}
+.miPriceBlock {
+	margin-bottom: 20px;
+}
+.miPriceBlock .price {
+	font-size: 20px;
+       color: #666666;
+}
+#ordering {
+	background: #E8DDD9;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+#socialMedia {
+	border-top: 1px solid #e7e7e7;
+	margin-bottom: 20px;
+	padding: 20px 0px 15px 0px;
+}
+#addToCart {
+	margin-bottom: 20px;
+}
+a.btnAddToCartMi, a.btnAddToCartMi:hover, a.btnAddToCartMi:focus {
+	font-size: 30px;
+       font-weight: bold;
+	height: 45px;
+	line-height: 45px;
+       font-family: 'MyriadPro-Regular',Helvetica,Arial;
+}
+#miText {
+	font-size: 16px;
+	line-height: 24px;
+	color: #666;
+	margin-bottom: 20px;
+       font-family: 'MyriadPro-Regular',Helvetica,Arial;
+}
+#sku {
+	margin: -10px 0px 20px 0px;
+	color: #999;
+}
+#quantityPricing {
+	margin-bottom: 20px;
+}
+/**
+ * Live Inventory Styles
+ */
+span#ss_inv {display: block; font-weight: bold; line-height: 26px;} 
+span.ss_in_stock {color: green;} 
+span.ss_out_of_stock, span.ss_low_stock {color: #800200;}
+
+/**
+ * Product Review Styles
+ */
+#productReviews {
+	margin-bottom: 20px;
+}
+#productReviews .caption {
+	font-size:24px;
+	display: block;
+}
+.reviews-brief {font-size: 90%; white-space: nowrap; display: block; margin-bottom: 20px; } 
+.reviews-brief div.reviews_stars {height: 20px; max-height: 20px; overflow: hidden; padding: 2px 0px;} 
+.reviews-brief span.reviews_stars_text, .reviews-brief span.review_product_name, .reviews-brief span.review_microdata_count, span.review_microdata_wrapper span.review_product_name, span.review_microdata_wrapper span.review_microdata_count, div.review span.review_product_name {display: none;} 
+.reviews-brief a, div#reviews-more a {text-decoration: underline;} 
+div#reviews-more span.reviews_stars_text {padding: 0px 6px 0px 0px;} 
+td.center span.reviews-brief {width: 80px; margin: 0px auto;} 
+div#reviews-more {border-top: 1px solid #DDD; border-bottom: 1px solid #DDD; padding: 14px 0px; margin: 0px auto;} 
+div#reviews-more div.reviews_stars, div#reviews-more span.reviews_stars_text, div#reviews-more div.reviews_stars_wrapper, div#reviews-more div.reviews_count {display: inline-block; line-height: 20px;} 
+div#reviews-more div.reviews_stars_wrapper {height: 16px; max-height: 16px; overflow: hidden; padding: 0px; display: inline-block; width: 80px; position: relative; top: 3px;} 
+div#reviews-more h4 {padding: 22px 0px 4px 0px; margin: 0px; font-weight: bold;} 
+span.review_title {font-weight: bold; padding: 0px 8px;} 
+div#reviews-more div.review {border-top: 1px solid #DDD; padding: 14px 0px;} 
+div#reviews-more span.review_author_text, div#reviews-more span.review_author, div#reviews-more span.review_date {line-height: 150%;}
+/**
+ * Search Results
+ */
+.searchResult {
+}
+#searchTop,
+#searchBottom {
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	border: 1px solid #e7e7e7;
+	border-left: none;
+	border-right: none;
+}
+#searchResults {
+	margin-bottom: 20px;
+}
+.searchResult td {
+	padding: 10px 0px;
+	border-bottom: 1px solid #ccc;
+}
+.searchResult:last-child td {
+	border: none;
+}
+.searchResult .productName {
+	font-size: 150%;
+}
+/**
+ * Cart
+ */
+#cartWrapper hr {
+	border: none;
+	border-top: 1px solid #e7e7e7;
+}
+.button6, /** Continue shopping **/
+.button7, /** Recalculate **/
+.button8, /** Checkout **/
+.button9, /** Empty Cart **/
+.button68, /** Return to Cart **/
+.button67 /** Submit Order **/
+{
+	padding: 5px 10px;
+	border: none;
+	background: #C8C5C0;
+	color: #fff;C8C5C0
+	font-family: Arial, Verdana, sans-serif;
+	border-radius: 5px;
+	font-size: 12px;
+	background: -moz-linear-gradient(top,  #999999 0%, #a6a09e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a6a09e), color-stop(100%,#a6a09e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #999999 0%,#a6a09e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #999999 0%,#a6a09e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #999999 0%,#a6a09e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #999999 0%,#a6a09e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a09e', endColorstr='#a6a09e',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px 0px #000000;
+	border: 2px solid #C8C5C0;
+}
+.button6:hover,
+.button7:hover,
+.button8:hover,
+.button9:hover,
+.button68:hover,
+.button67:hover
+{
+	text-shadow: none;
+	color: #E5E5E5;
+}
+.button8,
+.button67 {
+	font-size: 24px;
+	padding: 10px 20px;
+}
+.addr input[type='text'] {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-family: Arial, Verdana, sans-serif;
+	border-radius: 2px;
+}
+.addr input[type='text']:focus {
+	background: #e7e7e7;
+}
+#cartWrapper {
+	border: 1px solid #e7e7e7;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.25);
+	background: #fff;
+}
+table.cart {
+	background: #e7e7e7;
+	width: 100%;
+}
+table.cart td,
+table.cart th {
+	padding: 10px;
+}
+#cartWrapper textarea {
+	border: 1px solid #ccc;
+	background: #e7e7e7;
+	padding: 10px;
+	font-family: 'MyriadPro-Regular',"'MyriadPro-Regular'",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 12px;
+	width: 700px;
+}
+#cartWrapper select {
+	font-family: 'MyriadPro-Regular',"'MyriadPro-Regular'",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 12px;
+	padding: 5px;
+}
+
+#miGraphic {
+	text-align: center;
+	padding: 1px;
+	border: 1px solid #dadada;
+}
+
+span.click{
+  color:#5A5A5A;
+  }
+.bg-light-gray {
+    background-color: #F3F3F3;
+}
+**********************07172013***********************/
+.banner-new h2, .banner-new h3{font-weight:normal;}
+
+div.ss_wl_Box {text-align:left; white-space: nowrap; padding: 0px; margin: 5px 0px; width: 200px; max-width: 250px; position: relative; outline: none; cursor: pointer; clear: both; display: none; } /** z-index: 200;} **/
+div.ss_wl_Lists {overflow: hidden; clear: both; cursor: default; position: absolute; display: none;}
+span.ss_wl_List {display: block;}
+span.ss_wl_Label {display: inline-block; clear: none; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; padding: 8px 14px; text-align: left; color: #FFFFFF; background: #[-- STORE.VisitedLinkColor --]; overflow: hidden; font-size: 86%;}
+/** span.ss_wl_Button img, span.ss_wl_Button {z-index: 2;} **/
+div.ss_wl_Box div.ss_wl_Lists {top: 28px; left: 0px; width: 100%; overflow: visible;}
+span.ss_wl_List {padding: 4px 8px; margin: 0px; font-size: 90%; text-align: left; background: #FEFEFE; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #CCC;}
+span.wl_priv {margin-left: 4px; padding-right: 8px; font-size: 70%; opacity:0.8; filter:alpha(opacity=80);}
+span.ss_wl_List:hover {background: #EFEFEF;}
+div.ss_wl_Lists span.ss_wl_List:last-child {border-bottom: 1px solid #CCC; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; -moz-border-bottom-left-radius: 8px; -moz-border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px;}
+div.ss_wl_Lists span.ss_wl_List:first-child {border-top-right-radius: 8px; -moz-border-top-right-radius: 8px; -webkit-border-top-right-radius: 8px;} 
+/**
+ * BootStrap
+ */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrapper:before,
+.wrapper:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after,
+.row:after {
+  clear: both;
+}
+ .img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+} 
+ .center {
+	 text-align:center;
+ }
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  float: left;
+}
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4, .col-xs-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3, .col-xs-3 {
+    width: 25%;
+  }
+  .col-md-2, .col-xs-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1, .col-xs-1 {
+    width: 8.33333333%;
+  }
+.mini-icon img {
+    margin: 5px 5px 5px 5px;
+}
+ol, ul {
+    list-style: outside none none;
+}

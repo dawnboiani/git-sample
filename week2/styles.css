@@ -1,0 +1,17 @@
+@media print{
+    .banner{
+        display: none;
+    }
+    a {
+        color:#000;
+        text-decoration:none;
+        
+    }
+}
+@media screen{
+    .banner{
+        width: 100%;
+        display: block;
+    }
+}
+@media only

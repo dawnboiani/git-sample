@@ -13,14 +13,25 @@ userTable.on('click','button.remove',function(){
     
 });    
 
-    add_btn.on('click', function(){
-        addUser({
-            name: nameField.val(),
-            email: emailField.val(),
-         });    
+     add_btn.on('click', function(){
+        
+        var name = nameField.val();
+        var email = emailField.val();
+        
+        if(email.match(/^.+?\@.+\..+?$/)){
+            emailField.removeClass('invalid');
             
-        nameField.val("");
-        emailField.val("");    
+            addUser({
+                name: name,
+                email: email
+            });
+            
+            nameField.val("");
+            emailField.val("");
+        } else {
+            emailField.addClass('invalid');
+        }
+        
     
     });
     

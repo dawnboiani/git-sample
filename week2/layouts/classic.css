@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    
+}
+.header{
+    background-color: saddlebrown;
+}
+
+.footer{
+    background-color: lightblue;
+}
+
+/*content*/
+.content {
+    background-color: #ccc;
+}
+
+.content>div {
+    float: left;
+    height: 40rem;
+}
+.sidebar{
+    background-color: tan;
+    width: 25%;
+}
+.main{
+    background-color: #fff;
+    width: 50%;
+}
+.ads{
+    background-color: bisque;
+    width: 25%;
+}
+.content:after {
+    content:"";
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*utility rules*/
+
+.clearfix:after {
+    content:"";
+    display: block;
+    background-color: lightcoral;
+    height: 10px;
+    clear: both;
+}
