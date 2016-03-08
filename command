@@ -335,3 +335,4 @@ Example app listening on port 3000.
 ^C
 Kristians-MacBook-Pro-5:diceware Dawn$ node dice.js
 Example app listening on port 3000.
+node app.js
