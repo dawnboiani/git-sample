@@ -1,0 +1,454 @@
+body {
+	line-height: 1;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Raleway', sans-serif;
+}
+p{  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
+}
+.desc {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 80px 0px;
+}
+ol, ul {
+	list-style: none;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9fa8a3;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;     
+}  
+
+.box {
+    background-color: #ccc;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.box1 {
+    background-image: url(https://unsplash.it/300/300?image=1016);
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: underline;
+}
+.box2 {
+    background-image:url(https://unsplash.it/300/300?image=738);
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: underline;
+}
+.box3 {
+    background-image: url(https://unsplash.it/300/300?image=631);
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: underline;
+}
+.box4 {
+    background-image: url(https://unsplash.it/300/300?image=668);
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header
+{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+    padding: 9px 0px 0px 0px !important;
+
+}
+.desc {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 20px 0px 80px;
+    height: auto;
+}
+.container
+{
+	width: 1200px;
+	margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.logo
+{
+	float:left;
+}
+.logo h1 a
+{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #1C97CA;
+	font-size: 40px;
+	font-weight: 100;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+    margin-top: 10px
+	
+}
+.menu
+{
+	float: right;
+}
+.menu ul li
+{
+	display: inline-block;
+	padding: 33px 15px;
+}
+.menu ul li a
+{
+	float:right;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #4e4f4f;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: color 0.3s ease-in;
+	-moz-transition: color 0.3s ease-in;
+	-o-transition: color 0.3s ease-in;
+	-webkit-transition: color 0.3s ease-in;
+	-ms-transition: color 0.3s ease-in;
+}
+.menu ul li a:hover
+{
+	color: #c5d5cb;
+}
+.banner
+{
+	background: url(images/hero4.jpg) no-repeat fixed 0% 0%/cover;
+	padding: 150px 0px;
+	cursor: default;
+}
+.header-text
+{
+	text-align:center;
+	color: #fff;
+}
+.header-text h2
+{
+	font-size: 3.50em;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	line-height: 85px;
+}
+.pcenter {
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.313em;
+    line-height: 28px;
+    color: #474747;
+    font-weight: 300;
+    max-height: inherit;
+}
+.button-section ul li
+{
+	display: inline-block;
+	margin: 50px 20px;
+}
+.ghostbutton{
+  display: inline-block;
+  width: 40%;
+  padding: 25px 30px;
+  color: #fff;
+  border: 5px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.ghostbutton:hover
+ {
+     background:#C5D5CB;
+     border-color:#C5D5CB;
+     color:#fff;
+ }
+.ghostbutton:active{
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+.ghostbutton a {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 420px) { /* iPhone Landscape */
+  .btn-ghost {
+    width: 290px; width: 29.0rem;
+    height: 50px; height: 5.0rem;
+    font-size: 16px; font-size: 1.6rem;
+    line-height: 50px; line-height: 5.0rem;
+  }
+}
+
+.top-button
+{
+	
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.color-border
+{
+	background:url(images/color_border.jpg) repeat-x scroll center top;
+	width: 100%;
+	float: left;
+	display: block;
+	height: 5px;
+}
+.features
+{
+	float: left;
+	width: 100%;
+	background: #c5d5cb;
+    height: auto;
+}
+/*.tagline {
+    padding: 40px 0px;
+    background: url(images/flowerbg.jpg) no-repeat fixed 0% 0%/cover;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    align-content: center;
+    position: absolute;
+    background: url(images/flowerbg.jpg) no-repeat fixed 0% 0%/cover;
+    height: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #474747;
+    padding: 60px 0px;
+    font: inherit;
+}*/
+h3.text-head {
+    color: #647a7a;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+/*.stories
+{
+    height: 200px;
+    padding: 60px 0px;
+    /*background: url(images/flowerbg.jpg) no-repeat fixed 0% 0%/cover;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    position: absolute;
+	cursor: default;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #474747;
+    font: inherit;
+    margin-top: 30px;
+}*/
+
+.contact
+{
+	padding: 80px 0px;
+	float: left;
+	width: 100%;
+	background: #C5D5CB;
+    height 300px;
+}
+.upperfooter
+{
+    padding: 80px 0px;
+	float: left;
+	width: 100%;
+	background: url("images/flowerbg.jpg")no-repeat fixed 0% 0%/cover;
+    height: auto;
+	cursor: default;
+    text-align: center;
+    font-size: 1.3em;
+    color: #647a7a;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.footer
+{
+	width: 100%;
+	background-color: #474747;
+	float: left;
+	padding: 50px 0px;
+	text-align: center;
+    height 300px;
+}
+.footer p.copyright {
+    color: #585C65;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer p.copyright a
+{
+	color: #585C65;
+	text-decoration: none;
+	border-bottom: 1px dotted #585c65;
+}
+ul.socialmedia {
+    margin: 0;
+    list-style:none;
+    margin-top: 25px;
+}
+ul.socialmedia li {
+    display: inline-block;
+    margin-left: 15px;
+	margin-right: 15px;
+    color: #585c65;
+    font-size: 26px;
+}
+ul.socialmedia li a {
+    
+    color: #585c65;
+    font-size: 26px;
+}
+
+i.icon-twitter {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+i.icon-twitter:hover {
+    height: 100%;
+    color: #00acee;
+}
+i.icon-facebook {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+i.icon-facebook:hover {
+    height: 100%;
+    color: #3b5998;
+}
+i.icon-linkedin {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+i.icon-linkedin:hover {
+    height: 100%;
+    color: #0e76a8;
+}
+ul.socialmedia li a {
+    text-decoration: none;
+}
+.responsive-menu-button
+{
+	float: right;
+	padding: 24px 0px;
+}
+#mobile-header {
+display: none;
+}
